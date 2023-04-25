@@ -14,7 +14,9 @@ using CsvHelper;
 namespace DigiSign
 {
     public partial class Form1 : Form
-    {
+    {   
+
+        // alustetaan formin käyttämät muuttujat
         Bitmap DrawArea;
 
         public Tablet Digitizer;
@@ -58,7 +60,7 @@ namespace DigiSign
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+           
             startSamplingBtn.Enabled = false;
 
             retryBtn.Enabled = false;
