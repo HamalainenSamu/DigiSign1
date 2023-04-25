@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "f7IHRwo0dFSAuRgcjMqZoAb52ALHED/VpNmH+0Ou9y1ix4L6FGavraNUj98dBD2SlJeuLLZDQmLr0XBdkV5RhQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Samu\\Desktop\\school shit\\DigiSign\\DigiSign\\DigiSign.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Samu\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512",
+    "C:\\Users\\Samu\\.nuget\\packages\\ffmediatoolkit\\4.4.1\\ffmediatoolkit.4.4.1.nupkg.sha512",
+    "C:\\Users\\Samu\\.nuget\\packages\\ffmpeg.autogen\\5.0.0\\ffmpeg.autogen.5.0.0.nupkg.sha512",
+    "C:\\Users\\Samu\\.nuget\\packages\\sharpavi\\3.0.0\\sharpavi.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

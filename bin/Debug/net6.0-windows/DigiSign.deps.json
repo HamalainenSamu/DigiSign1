@@ -1,0 +1,119 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DigiSign/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "27.2.1",
+          "FFMediaToolkit": "4.4.1",
+          "SharpAvi": "3.0.0",
+          "AForge.Video.FFMPEG": "2.2.5.0",
+          "VBTablet": "1.0.0.0"
+        },
+        "runtime": {
+          "DigiSign.dll": {}
+        }
+      },
+      "CsvHelper/27.2.1": {
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "assemblyVersion": "27.0.0.0",
+            "fileVersion": "27.2.1.0"
+          }
+        }
+      },
+      "FFMediaToolkit/4.4.1": {
+        "dependencies": {
+          "FFmpeg.AutoGen": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FFMediaToolkit.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.4.1.0"
+          }
+        }
+      },
+      "FFmpeg.AutoGen/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "SharpAvi/3.0.0": {
+        "runtime": {
+          "lib/net5.0-windows7.0/SharpAvi.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "AForge.Video.FFMPEG/2.2.5.0": {
+        "runtime": {
+          "AForge.Video.FFMPEG.dll": {
+            "assemblyVersion": "2.2.5.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "VBTablet/1.0.0.0": {
+        "runtime": {
+          "VBTablet.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DigiSign/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/27.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uS5ix5hL9gL5taiAG//CScyJa8Fn1ZOh3FDhDvf4laboESFs84mCNropfp7PIt8xCkyQofljFpqu1B5UnSXjyA==",
+      "path": "csvhelper/27.2.1",
+      "hashPath": "csvhelper.27.2.1.nupkg.sha512"
+    },
+    "FFMediaToolkit/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MXs3hjDsZDohF84+X/zcnZb1WbwvQNMRRhJUeRjhtezEzSwLHQwEs71zjueWg/D39JpKow0+ymhIQjcCMG248g==",
+      "path": "ffmediatoolkit/4.4.1",
+      "hashPath": "ffmediatoolkit.4.4.1.nupkg.sha512"
+    },
+    "FFmpeg.AutoGen/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NOneQXI+BeZ295yDJ0Jv5m9TyP48Re4YUr6PIfi3q74ja6tZbWReMGFv0b3T420rtT37RvSBkipd940BFDJDgQ==",
+      "path": "ffmpeg.autogen/5.0.0",
+      "hashPath": "ffmpeg.autogen.5.0.0.nupkg.sha512"
+    },
+    "SharpAvi/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lqxh7CSX23cGiRkqbGRvwRl1XitL8YSwk3SxGP0wxl84G/32Q+JInl8/ja/KhwLqCN1bzCPVgf3v+xN1aIFEGQ==",
+      "path": "sharpavi/3.0.0",
+      "hashPath": "sharpavi.3.0.0.nupkg.sha512"
+    },
+    "AForge.Video.FFMPEG/2.2.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VBTablet/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.2.1" />
+    <PackageReference Include="FFMediaToolkit" Version="4.4.1" />
+    <PackageReference Include="SharpAvi" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AForge.Video.FFMPEG">
+      <HintPath>AForge.Video.FFMPEG.dll</HintPath>
+    </Reference>
+    <Reference Include="VBTablet">
+      <HintPath>VBTablet.dll</HintPath>
+    </Reference>
+    <Reference Include="WintabDN">
+      <HintPath>WintabDN.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Samu\.nuget\packages\accord\3.0.2\build\Accord.dll.config" />
+  </ItemGroup>
+
+</Project>

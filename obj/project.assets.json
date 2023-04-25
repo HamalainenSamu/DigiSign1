@@ -1,0 +1,220 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "CsvHelper/27.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CsvHelper.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {}
+        }
+      },
+      "FFMediaToolkit/4.4.1": {
+        "type": "package",
+        "dependencies": {
+          "FFmpeg.AutoGen": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FFMediaToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FFMediaToolkit.dll": {}
+        }
+      },
+      "FFmpeg.AutoGen/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {}
+        }
+      },
+      "SharpAvi/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/SharpAvi.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/SharpAvi.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "CsvHelper/27.2.1": {
+      "sha512": "uS5ix5hL9gL5taiAG//CScyJa8Fn1ZOh3FDhDvf4laboESFs84mCNropfp7PIt8xCkyQofljFpqu1B5UnSXjyA==",
+      "type": "package",
+      "path": "csvhelper/27.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.27.2.1.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net45/CsvHelper.dll",
+        "lib/net45/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net5.0/CsvHelper.dll",
+        "lib/net5.0/CsvHelper.xml",
+        "lib/net6.0/CsvHelper.dll",
+        "lib/net6.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "FFMediaToolkit/4.4.1": {
+      "sha512": "MXs3hjDsZDohF84+X/zcnZb1WbwvQNMRRhJUeRjhtezEzSwLHQwEs71zjueWg/D39JpKow0+ymhIQjcCMG248g==",
+      "type": "package",
+      "path": "ffmediatoolkit/4.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ffmediatoolkit.4.4.1.nupkg.sha512",
+        "ffmediatoolkit.nuspec",
+        "lib/netstandard2.0/FFMediaToolkit.dll",
+        "lib/netstandard2.0/FFMediaToolkit.pdb",
+        "lib/netstandard2.0/FFMediaToolkit.xml",
+        "lib/netstandard2.1/FFMediaToolkit.dll",
+        "lib/netstandard2.1/FFMediaToolkit.pdb",
+        "lib/netstandard2.1/FFMediaToolkit.xml"
+      ]
+    },
+    "FFmpeg.AutoGen/5.0.0": {
+      "sha512": "NOneQXI+BeZ295yDJ0Jv5m9TyP48Re4YUr6PIfi3q74ja6tZbWReMGFv0b3T420rtT37RvSBkipd940BFDJDgQ==",
+      "type": "package",
+      "path": "ffmpeg.autogen/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ffmpeg.autogen.5.0.0.nupkg.sha512",
+        "ffmpeg.autogen.nuspec",
+        "lib/net40/FFmpeg.AutoGen.dll",
+        "lib/net40/FFmpeg.AutoGen.xml",
+        "lib/net45/FFmpeg.AutoGen.dll",
+        "lib/net45/FFmpeg.AutoGen.xml",
+        "lib/net472/FFmpeg.AutoGen.dll",
+        "lib/net472/FFmpeg.AutoGen.xml",
+        "lib/netstandard2.0/FFmpeg.AutoGen.dll",
+        "lib/netstandard2.0/FFmpeg.AutoGen.xml",
+        "lib/netstandard2.1/FFmpeg.AutoGen.dll",
+        "lib/netstandard2.1/FFmpeg.AutoGen.xml"
+      ]
+    },
+    "SharpAvi/3.0.0": {
+      "sha512": "Lqxh7CSX23cGiRkqbGRvwRl1XitL8YSwk3SxGP0wxl84G/32Q+JInl8/ja/KhwLqCN1bzCPVgf3v+xN1aIFEGQ==",
+      "type": "package",
+      "path": "sharpavi/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/SharpAvi.dll",
+        "lib/net45/SharpAvi.xml",
+        "lib/net5.0-windows7.0/SharpAvi.dll",
+        "lib/net5.0-windows7.0/SharpAvi.xml",
+        "lib/net5.0/SharpAvi.dll",
+        "lib/net5.0/SharpAvi.xml",
+        "lib/netstandard2.0/SharpAvi.dll",
+        "lib/netstandard2.0/SharpAvi.xml",
+        "readme.md",
+        "sharpavi.3.0.0.nupkg.sha512",
+        "sharpavi.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "CsvHelper >= 27.2.1",
+      "FFMediaToolkit >= 4.4.1",
+      "SharpAvi >= 3.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Samu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Samu\\Desktop\\school shit\\DigiSign\\DigiSign\\DigiSign.csproj",
+      "projectName": "DigiSign",
+      "projectPath": "C:\\Users\\Samu\\Desktop\\school shit\\DigiSign\\DigiSign\\DigiSign.csproj",
+      "packagesPath": "C:\\Users\\Samu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Samu\\Desktop\\school shit\\DigiSign\\DigiSign\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Samu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "CsvHelper": {
+            "target": "Package",
+            "version": "[27.2.1, )"
+          },
+          "FFMediaToolkit": {
+            "target": "Package",
+            "version": "[4.4.1, )"
+          },
+          "SharpAvi": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
